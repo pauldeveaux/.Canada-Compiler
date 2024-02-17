@@ -1,0 +1,13 @@
+﻿-- InOut
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+
+    procedure perimetreRectangle(a,b:in Integer; c: in out char) is
+    begin
+        p := larg*2 + long*2 ;
+    end perimetreRectangle;
+    
+begin 
+   y := perimetreRectangle(1,2,3);
+end Hello;

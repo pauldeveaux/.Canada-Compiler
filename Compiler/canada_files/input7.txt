@@ -1,0 +1,15 @@
+﻿-- Program with every expressions
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+    x : Integer;
+    y : Integer;
+begin
+    x := 2;
+    y := x + 5;
+    z := 'a'; -- char
+    a := true;
+    b := false;
+    c := null;
+    d := ((((1))));
+end Hello;

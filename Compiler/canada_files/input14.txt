@@ -1,0 +1,17 @@
+﻿-- Champs
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+    type Point is record     
+        x,y : Integer;
+        name : String;    
+    end record;
+    
+    type Carre is record     
+        point1,point2,point3,point4:Point;  
+    end record;
+    
+    y : Integer;
+begin
+    x := new Point;
+end Hello;

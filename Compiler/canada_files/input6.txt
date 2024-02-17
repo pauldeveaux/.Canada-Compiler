@@ -1,0 +1,22 @@
+﻿-- Program to test loops
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+    x : Integer;
+    y : Integer;
+begin
+    x := 0;
+    
+    for i in 1 .. 5 loop
+        x := x + 2;
+    end loop;
+    
+    for i in reverse 1 .. 5 loop
+        x := x - 1;
+    end loop;
+    
+    while x < 2 loop 
+        x := x + 1;
+    end loop;
+    
+end Hello;

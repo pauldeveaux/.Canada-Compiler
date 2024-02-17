@@ -1,0 +1,10 @@
+﻿-- Program with access
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+    x : Integer;
+    y : Integer;
+begin
+    x := a.b;
+    y := a.b.c;
+end Hello;

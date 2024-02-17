@@ -1,0 +1,50 @@
+﻿Fichier with
+Decl_star type procedure function Ident
+Decl type procedure function Ident
+Decl_b ; is
+Decl_a access record
+Champs Ident
+Champs_plus Ident
+Champs_star Ident
+Type Ident access
+Params (
+Param Ident
+Param_plus Ident
+Param_star ;
+Mode in
+Mode_a out
+Instr_plus Ident entier caractere true false null ( new character return begin if for while
+Instr_star Ident entier caractere true false null ( new character return begin if for while
+Expr_virgule_plus not - entier caractere true false null Ident ( new character
+Expr_virgule_star ,
+Expr_egal_interog :=
+Expr_interog not - entier caractere true false null Ident ( new character
+Elsif_star elsif
+Else_interog else
+Else_i else
+Then_i then
+Instr Ident entier caractere true false null ( new character return begin if for while
+Instr1 := ( ; .
+Instr2 ; .
+Expr not - entier caractere true false null Ident ( new character
+E1 or
+E2 not - entier caractere true false null Ident ( new character
+E3 and
+E4 not - entier caractere true false null Ident ( new character
+E5 - entier caractere true false null Ident ( new character
+E6 = /=
+E7 - entier caractere true false null Ident ( new character
+E8 > >= < <=
+E9 - entier caractere true false null Ident ( new character
+E10 + -
+E11 - entier caractere true false null Ident ( new character
+E12 * / rem
+E13 - entier caractere true false null Ident ( new character
+E14 entier caractere true false null Ident ( new character
+E14b ( .
+E15+ .
+E15 .
+Reverse_interog reverse
+Ident_virgule_plus Ident
+Ident_virgule_star ,
+Ident_interog Ident

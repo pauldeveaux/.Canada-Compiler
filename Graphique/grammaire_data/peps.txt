@@ -1,0 +1,1 @@
+﻿Decl_star Champs_star Params Param_star Mode Mode_a Instr_star Expr_virgule_star Expr_egal_interog Expr_interog Elsif_star Else_interog Else_i Then_i E1 E3 E6 E8 E10 E12 E15 Reverse_interog Ident_virgule_star Ident_interog E14b

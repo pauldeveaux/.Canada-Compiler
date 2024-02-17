@@ -1,0 +1,19 @@
+﻿-- Logique
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+begin 
+    if a and b or true then
+        x := true;
+        y := true;
+    elsif c then
+        a := true;
+        put(x, y, a);
+    else
+        x := false;
+    end if;
+    
+    if 5 >= 1 or 1 > 4 then
+        y := true;
+    end if;
+end Hello;

@@ -1,0 +1,5 @@
+﻿S EOF
+A y z t NULL EOF
+B z EOF
+C EOF
+D x t u EOF

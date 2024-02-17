@@ -1,0 +1,50 @@
+﻿Fichier $
+Decl_star begin
+Decl type procedure function Ident begin
+Decl_b type procedure function Ident begin
+Decl_a type procedure function Ident begin
+Champs Ident end
+Champs_plus end
+Champs_star end
+Type := ; is )
+Params is return
+Param ; )
+Param_plus )
+Param_star )
+Mode Ident access
+Mode_a Ident access
+Instr_plus end elsif else
+Instr_star end elsif else
+Expr_virgule_plus )
+Expr_virgule_star )
+Expr_egal_interog ;
+Expr_interog ;
+Elsif_star else end
+Else_interog end
+Else_i not - entier caractere true false null Ident ( new character
+Then_i not - entier caractere true false null Ident ( new character
+Instr Ident entier caractere true false null ( new character return begin if for while end elsif else
+Instr1 Ident entier caractere true false null ( new character return begin if for while end elsif else
+Instr2 Ident entier caractere true false null ( new character return begin if for while end elsif else
+Expr , then ; ) . loop
+E1 , then ; ) . loop
+E2 or , then ; ) . loop
+E3 or , then ; ) . loop
+E4 and or , then ; ) . loop
+E5 and or , then ; ) . loop
+E6 and or , then ; ) . loop
+E7 = /= and or , then ; ) . loop
+E8 = /= and or , then ; ) . loop
+E9 > >= < <= = /= and or , then ; ) . loop
+E10 > >= < <= = /= and or , then ; ) . loop
+E11 + - > >= < <= = /= and or , then ; ) . loop
+E12 + - > >= < <= = /= and or , then ; ) . loop
+E13 * / rem + - > >= < <= = /= and or , then ; ) . loop
+E14 * / rem + - > >= < <= = /= and or , then ; ) . loop
+E14b * / rem + - > >= < <= = /= and or , then ; ) . loop
+E15+ :=
+E15 * / rem + - > >= < <= = /= and or , then ; ) . loop :=
+Reverse_interog not - entier caractere true false null Ident ( new character
+Ident_virgule_plus :
+Ident_virgule_star :
+Ident_interog ;

@@ -1,0 +1,10 @@
+﻿-- Moins unaire et not
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+    x : Integer;
+    y : Integer;
+begin
+    x := -a;
+    y := not not b;
+end Hello;

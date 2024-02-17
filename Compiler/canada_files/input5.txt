@@ -1,0 +1,13 @@
+﻿-- Program to test calculations
+
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+    x : Integer;
+    y : Integer;
+begin
+    x := 1 + 2 / 3 + 4 - 5;
+    y := x + 1 / (2 + 3) * 4;
+    z := 1 + 2 + 3 + 4;
+    a := - z;
+    c.d.e := x.y.z;
+end Hello;

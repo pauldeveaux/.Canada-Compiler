@@ -1,0 +1,6 @@
+﻿with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+    x : Integer;
+begin
+    x := 1 + 2 * 3 >= 4 = 5 . y ;
+end Hello;

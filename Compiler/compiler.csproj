@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace></RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="src\grammaire_data\Peps_exemple1.txt" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="canada_files\*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Msagl.GraphViewerGDI" Version="1.1.7" />
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+        <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+        <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
+        <PackageReference Include="System.Security.Permissions" Version="8.0.0" />
+        <PackageReference Include="System.Windows.Forms.DataVisualization" Version="1.0.0-prerelease.20110.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="Accessibility">
+        <HintPath>..\Accessibility.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Windows.Forms">
+        <HintPath>..\System.Windows.Forms.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿with Ada.Text_IO ; use Ada.Text_IO ;
+procedure testDecl is
+-- 1) type <ident>;
+type ident;
+type A12345;
+
+-- 2) type <ident> is access <ident>;
+type ident is access Integer;
+
+-- 3) a) type <ident> is record <champs>+ end record;
+type ident is record a1,a2,a3 : entier; end record;
+-- 3) b) type <ident> is record <champs>+ end record;
+-- <champs> ::= <ident>+, : <type>;
+type ident is record a1,a2,a3 : char; a1,a2,a3 : entier; end record;
+
+
+-- 4) a) <ident>+,: <type> (:= <expr>)?;
+-- entier
+ident1, ident2, ident3: entier := 1;
+-- char
+ident4, ident5, ident6: char := 'a';
+-- boolean
+ident7, ident8, ident9: boolean := true;
+ident7, ident8, ident9: boolean := false;
+-- null
+ident10, ident11, ident12: entier := null;
+-- 4) b) <ident>+,: <type>;
+ident13, ident14, ident15: entier;
+
+-- 5) a)
+-- procedure <ident> <params> ? is <decl>*
+-- begin <instr>+ end <ident> ?;
+procedure procedure1 (a1,a2,a3:in entier ; a4,a5,a6:in out entier) is 
+type ident1 is access Integer;
+type ident2 is access Integer;
+-- <decl>*
+begin
+ident1 := 1;
+end procedure1;
+--
+
+-- 5) b)
+-- procedure <ident> <params> ? is <decl>*
+-- begin <instr>+ end <ident> ?;
+procedure procedure2 (a1:in char ; a4:in out boolean) is 
+-- <decl>*
+begin
+ident1 := 1;
+end;
+--
+
+-- 5) c)
+-- procedure <ident> <params> ? is <decl>*
+-- begin <instr>+ end <ident> ?;
+procedure procedure3 is 
+-- <decl>*
+begin
+ident1 := 1;
+end;
+--
+
+
+-- 6) a)
+-- function <ident> <params>? return <type> is <decl>*
+-- begin <instr>+ end <ident> ?;
+function function1 (a1,a2,a3:in entier ; a4,a5,a6:in out entier) return entier is 
+type ident1 is access Integer;
+type ident2 is access Integer;
+-- <decl>*
+begin
+ident1 := 1;
+end procedure1;
+--
+
+-- 6) b)
+-- procedure <ident> <params> ? is <decl>*
+-- begin <instr>+ end <ident> ?;
+function function2 (a1:in char ; a4:in out boolean) return boolean  is 
+-- <decl>*
+begin
+ident1 := 1;
+end;
+--
+
+
+------ BEGIN ------
+
+begin
+-- <instr>+
+ident;
+ident1 := 1;
+
+end testDecl ;
